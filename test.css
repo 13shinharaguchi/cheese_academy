@@ -1,0 +1,25 @@
+.black-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: black
+}
+
+.cheese {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #030303;
+}
+
+.control {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color:black;
+}

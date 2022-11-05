@@ -1,0 +1,423 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.text-center {
+	text-align: center;
+}
+
+.text-top {
+	margin: 0 0 64px 0;
+}
+
+.wrapper {
+	margin: auto;
+}
+
+
+/* topの部分 */
+
+.top {
+	background: url(../img/mainbg.png);
+	background-size: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.top-text {
+	color: #fff
+}
+
+.top-text h1 {
+	margin-bottom: 40px;
+	font-size: 48px;
+}
+
+.top-text p {
+	font-size: 36px;
+}
+
+
+
+
+/* header部分 */
+.header {
+	background-color: darkorchid;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 2px solid #222222;
+	font-size: 21px;
+	height: 80px;
+}
+
+.nav-list {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.test100 {
+	width: 200px;
+}
+
+
+.nav-item>a {
+	color: #222222;
+	text-transform: uppercase;
+}
+
+.test {
+	width: 50%;
+}
+
+.main {
+	background-color: white;
+}
+
+/* aboutの部分 */
+.about-top {
+	font-size: 24px;
+	color: #ffd61a;
+	margin: 120px 0 24px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+
+.about_text {
+	text-align: center;
+	margin: 0 0 80px 0;
+}
+
+
+
+.about_test-title {
+	margin-bottom: 24px;
+}
+
+
+/* course */
+.course-content {
+	display: flex;
+}
+
+.course-items {
+	width: 50%;
+	background-color: darkgrey;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 0 0 48px;
+}
+
+
+.course-pi {
+	width: 50%;
+}
+
+.course-pi img {
+	width: 100%;
+}
+
+.course-item-headline {
+	font-size: 24px;
+	color: #222222;
+	margin: 0 0 40px 0;
+}
+
+.course-title {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.course-headline {
+	padding: 64px 0;
+	text-align: center;
+	background-color: azure;
+}
+
+/* news部分 */
+#news {
+	background-color: aliceblue;
+}
+
+.wrapper-news {
+	width: 960px;
+	margin: 40px auto;
+}
+
+.title-news {
+	text-align: center;
+}
+
+.title-news h2 {
+	text-transform: uppercase;
+	padding: 64px 0 48px 0;
+	background-color: aliceblue;
+}
+
+.title-news p {
+	margin-bottom: 40px;
+}
+
+.news-list {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.news-h {
+	margin-bottom: 24px;
+}
+
+.news-e {
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.news-e img {
+	width: 100%;
+}
+
+.news-li {
+	margin-right: 32px;
+}
+
+.more {
+	background-color: #ffd61a;
+	color: #fff;
+	width: 320px;
+	height: 60px;
+
+}
+
+.news-more {
+	display: flex;
+	justify-content: center;
+}
+
+/* acssess部分 */
+.access {
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+
+.access h2 {
+	text-transform: uppercase;
+	margin: 40px 0 20px 0
+}
+
+.googlemap {
+	margin: 64px 0;
+}
+
+.access dt {
+	width: 40%;
+	margin-bottom: 24px;
+}
+
+.access dd {
+	width: 60%;
+	margin-bottom: 24px;
+}
+
+.dl-itmes {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/* contact */
+.contact {
+	padding: 30px 0;
+}
+
+.contact-wrapper {
+	width: 670px;
+	margin: auto;
+}
+
+
+.contact-wrapper h2 {
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contact-wrapper div {
+	margin-bottom: 50px;
+}
+
+
+.form-inner {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+
+.form-title {
+	width: 120px;
+	margin-right: 20px;
+	text-align: left;
+	padding-top: 4px;
+}
+
+.form-items {
+	width: 400px;
+	margin-bottom: 24px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.form-part {
+	border: solid 1px red;
+	padding: 8px;
+	width: 100%;
+	box-sizing: border-box;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+input[type*="radio"] {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: solid 1px red;
+	width: 24px;
+	height: 24px;
+	border-radius: 9px;
+	margin-right: 40px;
+}
+
+input[type*="radio"]:checked {
+	background-color: blueviolet;
+}
+
+.checkbox {
+	margin-bottom: 25px;
+	width: 960px;
+}
+
+.btn {
+	width: 300px;
+	height: 70px;
+	background-color: red;
+
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.back_to_top {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 30px;
+}
+
+
+
+/* footer */
+footer {
+	text-align: center;
+	padding: 32px 0;
+	background-color: #707070;
+	color: #fff;
+}
+
+/* レスポンシブ */
+@media screen and (max-width:500px) {
+
+	.top {
+		background: url(../img/nezu.png);
+
+	}
+
+	.top-text {
+		color: #222222;
+	}
+}
+
+
+/* js変更よう */
+#sakurabox {
+	background-color: black;
+	/* 背景色 */
+}
+
+.guideArea {
+	margin-bottom: 10px;
+	padding: 5px;
+	border: solid 2px;
+	width: 300px;
+}
+
+.addColor {
+	background-color: #d5ecce;
+}
+
+#shin {
+
+	background-color: red;
+}
+
+.addshin2 {
+	background-color: black;
+}
+
+
+#main-cheese {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	position: absolute;
+}
